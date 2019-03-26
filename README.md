@@ -15,7 +15,8 @@
 4、计算任意两个代购之间是否存在邀请关系。
 
 
+max_len_path_algorithms.py文件可根据公司所有代购形成的邀请网络关系计算邀请关系最长的路径；
 
-1、根据公司所有代购形成的邀请网络关系计算邀请关系最长的路径；
+is_exist_invite_relationship.py文件可根据用户user_id，计算任意两个代购之间是否存在直接或者间接的邀请关系。
 
-2、根据用户user_id，计算任意两个代购之间是否存在直接或者间接的邀请关系。
+项目中所用的工具：odps sql、pycharm+anaconda2
